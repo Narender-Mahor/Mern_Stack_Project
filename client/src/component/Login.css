@@ -1,0 +1,77 @@
+/* login ui css */
+
+
+  
+.login-form .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  .login-form .card {
+    width: 400px;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 40px;
+    font-size: 27px;
+    text-align: left;
+    font-weight: 700;
+    position: relative;
+  }
+
+  .login-form h2::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100%;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background-color: #4070f4;
+    border-radius: 25px;
+  }
+
+
+  
+  .login-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form label {
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  .login-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .login-form button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-form .switch {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .login-form .switch a {
+    color: #007BFF;
+    text-decoration: none;
+  }

@@ -1,0 +1,25 @@
+.home-page{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    background: rgb(129,162,255);
+    background: linear-gradient(90deg, rgba(129,162,255,1) 0%, rgba(255,255,255,1) 100%);}
+
+.home-page p{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.home-page h1{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.home-page .content{
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
